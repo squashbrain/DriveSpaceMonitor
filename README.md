@@ -1,4 +1,4 @@
-# DriveSpaceMonitor
+# DriveSpaceMonitorService
 Drive Space Monitoring Tool + Pushover Notifications
 
 This DriveSpaceMonitor is a Windows service which will monitor Drive space on one or more drives.  
