@@ -16,7 +16,7 @@ https://indy.fulgan.com/SSL/
 
 
 Installation:
------------------------------------------------------
+-
 1) No true installation is needed.  Just put the folder containing the service exe, dll files, and config file
    into a folder of your choice like "C:\ProgramData\[tools]\Drive Space Monitor" 
 
@@ -37,12 +37,13 @@ Done!
 
 
 Alternative Installation:
+-
 If you need to install from a Batch file or from an installation program, you can use the following:
 sc.exe create DriveSpaceMonitor start= delayed-auto binPath= "C:\ProgramData\Tools\Drive Space Monitor" obj= "MYUSERNAME" password= "MYPASSWORD"
 
 
 Uninstall:
------------------------------------------------------
+-
 1) Stop the service.
 2) Open a cmd window as admin and navigate to the folder where you copied it to in Step #1 of installation
 3) DriveSpaceMonitor.exe /uninstall
