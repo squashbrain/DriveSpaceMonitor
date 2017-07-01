@@ -47,7 +47,7 @@ Done!
 
 If you need to install from a batch file or from an installation program, you can use the following:
 
-sc.exe create DriveSpaceMonitorService start= delayed-auto binPath= "C:\ProgramData\Tools\Drive Space Monitor" obj= "MYUSERNAME" password= "MYPASSWORD"
+    sc.exe create DriveSpaceMonitorService start= delayed-auto binPath= "C:\ProgramData\Tools\Drive Space Monitor" obj= "MYUSERNAME" password= "MYPASSWORD"
 
 
 ## License
