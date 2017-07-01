@@ -27,7 +27,7 @@ Installation:
    
 4) Configure the DriveMonitor.ini file.
 
-5) Open Windows Services and right click the "Drive Space Monitor" service then click properties and
+5) Open Windows Services and right click the "Drive Space Monitor Service" then click properties and
    Navigate to the "Logon" Tab.  Change the logon from "Local System Account" to "Logon As" and put in 
    an appropriate account and password. Click OK
    
