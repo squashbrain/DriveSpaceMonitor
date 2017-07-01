@@ -51,3 +51,6 @@ If you need to install from a batch file or from an installation program, you ca
 
 sc.exe create DriveSpaceMonitorService start= delayed-auto binPath= "C:\ProgramData\Tools\Drive Space Monitor" obj= "MYUSERNAME" password= "MYPASSWORD"
 
+
+## License
+GNU Affero General Public License v3.0
