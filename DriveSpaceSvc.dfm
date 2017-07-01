@@ -1,7 +1,7 @@
 object DriveSpaceMonitorService: TDriveSpaceMonitorService
   OldCreateOrder = False
   OnCreate = ServiceCreate
-  DisplayName = 'DriveSpaceMonitorService'
+  DisplayName = 'Drive Space Monitor Service'
   Interactive = True
   AfterInstall = ServiceAfterInstall
   AfterUninstall = ServiceAfterUninstall
