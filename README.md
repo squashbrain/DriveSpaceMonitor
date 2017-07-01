@@ -13,10 +13,12 @@ Go get the latest SSL files and place them in the EXE folder:
 https://indy.fulgan.com/SSL/
 
 
+## Motivation
+I manage AWS servers for production as part of my job and one of the drives filled up before me or anyone else noticed it.  I searched all over for a Windows Service that could monitor multiple drives and send Pushover notifications.  I couldnt find one so I decided to build one.  There are plenty of great drive space monitors built on the .NET platform written in C# but we preferred to use a non .NET platform.
 
 
-Installation:
--
+## Installation:
+
 1) No true installation is needed.  Just put the folder containing the service exe, dll files, and config file
    into a folder of your choice like "C:\ProgramData\[tools]\Drive Space Monitor" 
 
@@ -36,15 +38,16 @@ Installation:
 Done!
 
 
-Alternative Installation:
--
+## Uninstall:
+
+1) Stop the service.
+2) Open a cmd window as admin and navigate to the folder where you copied it to in Step #1 of installation
+3) DriveSpaceMonitor.exe /uninstall
+
+
+## Alternative Installation:
+
 If you need to install from a batch file or from an installation program, you can use the following:
 
 sc.exe create DriveSpaceMonitorService start= delayed-auto binPath= "C:\ProgramData\Tools\Drive Space Monitor" obj= "MYUSERNAME" password= "MYPASSWORD"
 
-
-Uninstall:
--
-1) Stop the service.
-2) Open a cmd window as admin and navigate to the folder where you copied it to in Step #1 of installation
-3) DriveSpaceMonitor.exe /uninstall
