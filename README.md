@@ -7,34 +7,31 @@ In the event that the free drive space remaining reaches a pre-set trigger point
 Pushover alert to a technician to handle the problem.
 
 
-Go edit your Pushover account or set one up:
-https://pushover.net/
-
-Go get the latest SSL files and place them in the EXE folder:
-https://indy.fulgan.com/SSL/
-
-
 ## Motivation
 I manage AWS servers for production as part of my job and one of the drives filled up before me or anyone else noticed it.  I searched all over for a Windows Service that could monitor multiple drives and send Pushover notifications.  I couldnt find one so I decided to build one.  There are plenty of great drive space monitors built on the .NET platform written in C# but we preferred to use a non .NET platform.
 
 
 ## Installation:
 
-1) No true installation is needed.  Just put the folder containing the service exe, dll files, and config file
-   into a folder of your choice like "C:\ProgramData\[tools]\Drive Space Monitor" 
+1) Go edit your Pushover account or set one up:  https://pushover.net/
 
-2) Open a cmd window as admin and navigate to this folder.
+2) Go get the latest SSL files and place them in the EXE folder:  https://indy.fulgan.com/SSL/
 
-3) To install the service into the Windows Service Control Manager type the following:
+3) Create a folder containing the service exe, dll files, and config file
+   wherever you prefer like "C:\ProgramData\[tools]\Drive Space Monitor" 
+
+4) Open a cmd window as admin and navigate to this folder.
+
+5) To install the service into the Windows Service Control Manager type the following:
    DriveSpaceMonitor.exe /install
    
-4) Configure the DriveMonitor.ini file.
+6) Configure the DriveMonitor.ini file.
 
-5) Open Windows Services and right click the "Drive Space Monitor Service" then click properties and
+7) Open Windows Services and right click the "Drive Space Monitor Service" then click properties and
    Navigate to the "Logon" Tab.  Change the logon from "Local System Account" to "Logon As" and put in 
    an appropriate account and password. Click OK
    
-6) Now start the service.
+8) Now start the service.
 
 Done!
 
