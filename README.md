@@ -10,6 +10,12 @@ Pushover alert to a technician to handle the problem.
 ## Motivation
 I manage AWS servers for production as part of my job and one of the drives filled up before me or anyone else noticed it.  I searched all over for a Windows Service that could monitor multiple drives and send Pushover notifications.  I couldnt find one so I decided to build one.  There are plenty of great drive space monitors built on the .NET platform written in C# but we preferred to use a non .NET platform.
 
+## Source
+The project was created with Delphi XE7 but It should be compatible from Delphi 2010 and up.<br>
+*Requires Indy version 10.60 or greater which uses the OpenSSL libraries*
+
+## Binaries
+Prefer not to build the source or dont have access to Delphi, just grab the prebuilt binary from the /bin folder and follow the instructions below.
 
 ## Installation:
 
