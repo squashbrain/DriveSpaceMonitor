@@ -20,19 +20,17 @@ Prefer not to build the source or dont have access to Delphi, just grab the preb
 
 1) Go edit your Pushover account or set one up:  https://pushover.net/
 
-2) Create a folder containing the built service exe and config file wherever you prefer like 
-   "C:\ProgramData\[tools]\Drive Space Monitor" 
+2) Go get the latest SSL files and place them in the EXE folder:  https://indy.fulgan.com/SSL/
 
-3) Get the latest SSL binaries from https://indy.fulgan.com/SSL/ and extract the following files into this folder: 
-   ssleay32.dll
-   libeay32.dll
-   
+3) Create a folder containing the service exe, dll files, and config file
+   wherever you prefer like "C:\ProgramData\[tools]\Drive Space Monitor" 
+
 4) Open a cmd window as admin and navigate to this folder.
 
 5) To install the service into the Windows Service Control Manager type the following:
    DriveSpaceMonitor.exe /install
    
-6) Configure the DriveMonitor.ini file and make sure to add the Pushover Account info.
+6) Configure the DriveMonitor.ini file.
 
 7) Open Windows Services and right click the "Drive Space Monitor Service" then click properties and
    Navigate to the "Logon" Tab.  Change the logon from "Local System Account" to "Logon As" and put in 
