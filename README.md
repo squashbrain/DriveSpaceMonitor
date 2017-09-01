@@ -3,7 +3,7 @@
 Drive Space Monitoring Tool + Pushover Notifications
 
 This DriveSpaceMonitor is a Windows service which will monitor Drive space on one or more drives.  
-In the event that the free drive space remaining reaches a pre-set trigger point, it will send a 
+In the event that the free drive space remaining reaches a preset trigger point, it will send a 
 Pushover alert to a technician to handle the problem.
 
 ## Motivation
