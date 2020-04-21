@@ -59,4 +59,4 @@ Coming soon!
 Chris McClenny(me), Chris Felder(@rollntider)
 
 ## License
-GNU Affero General Public License v3.0
+MIT License
